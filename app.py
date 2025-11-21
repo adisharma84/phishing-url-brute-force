@@ -94,7 +94,8 @@ if url!="":
     else:    
         st.write(f"RESULT = {verdict}")
 elif url=="":
-    st.write("URL Daal Bosdike")   
+    st.write("Enter the URL")   
 else:
     st.write("Invalid URL entered.")
+
 
